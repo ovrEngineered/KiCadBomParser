@@ -38,4 +38,4 @@ This example will:
      
      
 ### Pre-compiled Releases
-
+[v0.0.1](releases/KiCadBomParser-v0.0.1.jar)
