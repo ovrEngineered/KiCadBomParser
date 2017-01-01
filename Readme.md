@@ -10,7 +10,7 @@ By default `bom2csv` will generate a single line for every component. This will 
 concatenate those multiple duplicate lines into a single line, use this command:
 
 ```
-java KiCadBomParser -i <yourInputCsv> -o <yourOutputCsv> -c <idFieldName> -q <quantityFieldName> -r <referenceFieldName>
+java -jar KiCadBomParser-v0.0.1.jar -i <yourInputCsv> -o <yourOutputCsv> -c <idFieldName> -q <quantityFieldName> -r <referenceFieldName>
 ```
 
 This example will:
@@ -25,7 +25,7 @@ This example will:
 If you have multiple suppliers, it's often useful to separate components into separate BOMs for ordering...use this command:
  
 ```
-java KiCadBomParser -i <yourInputCsv> -o <yourOutputCsv> -s <idFieldName>
+java -jar KiCadBomParser-v0.0.1.jar -i <yourInputCsv> -o <yourOutputCsv> -s <idFieldName>
 ```
  
 This example will:
@@ -35,3 +35,7 @@ This example will:
    * eg. if you specified `foo.csv` and you have parts from 'DigiKey' and 'Mouser' will create two files:
      * `foo-DigiKey.csv`
      * `foo-Mouser.csv`
+     
+     
+### Pre-compiled Releases
+
